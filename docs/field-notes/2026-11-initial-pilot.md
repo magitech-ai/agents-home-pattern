@@ -52,6 +52,10 @@ These are early design signals from one user's machine and organization. They
 are not yet demonstrated across multiple independent users, operating systems,
 or all product surfaces.
 
+The subsequent fresh OpenCode onboarding test is recorded in the
+[follow-up pilot note](2026-11-fresh-opencode-onboarding.md), with its
+user-approved session export under `evidence/opencode/`.
+
 ## Documented discovery behavior checked for this snapshot
 
 The following is evidence from product documentation, not a runtime matrix:
@@ -75,7 +79,8 @@ harnesses implement the full draft `.agents` Protocol.
 - Symlink behavior and permissions can differ across operating systems,
   filesystems, containers, and remote development environments.
 - Harness reload behavior and same-name conflict/precedence rules have not
-  been tested consistently across the user's four target harnesses.
+  been tested consistently across the user's four target harnesses. A single
+  OpenCode onboarding run is recorded in the follow-up pilot note.
 - A skill being present at a documented path does not prove a specific
   harness version will load it, or that its instructions behave as intended.
 - A private canonical repository cannot be assumed accessible to collaborators
@@ -83,8 +88,9 @@ harnesses implement the full draft `.agents` Protocol.
 
 ## Next validation steps
 
-- Record exact versions and directly test discovery and invocation in OpenCode,
-  Antigravity, Copilot, and DeepSeek Harness.
+- Record exact versions and directly test discovery and invocation in
+  Antigravity, Copilot, and DeepSeek Harness; repeat the OpenCode test on a
+  clean account or machine without preinstalled global skills.
 - Repeat the install flow on another machine and at least one environment
   without symlink support.
 - Ask another person to reproduce the pattern independently, noting which
