@@ -31,6 +31,7 @@ collaboration models.
 
 See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [fresh OpenCode onboarding pilot](docs/field-notes/2026-11-fresh-opencode-onboarding.md),
+[Antigravity onboarding evaluations](docs/field-notes/2026-11-antigravity-onboarding-evaluations.md),
 [sources](docs/sources.md), and [open questions](docs/open-questions.md).
 Terms used in this repository are defined in the [glossary](GLOSSARY.md).
 

@@ -27,6 +27,9 @@ product version and surface.
 - [Antigravity: Agent skills](https://antigravity.google/docs/skills) — lists
   global `~/.gemini/config/skills`, project `.agents/skills`, and ancestor
   workspace directories for the App.
+- [Antigravity App overview](https://antigravity.google/docs/overview) —
+  checked for documentation of local conversation storage and transcript
+  export on 2026-11-15; the page does not specify either.
 - [OpenAI Codex: Skills](https://developers.openai.com/codex/skills/) —
   describes repository `.agents/skills` scanning from the current working
   directory through the repository, plus other skill scopes.
