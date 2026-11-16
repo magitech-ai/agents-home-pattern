@@ -64,3 +64,34 @@ The onboarding guidance in `agents-home` was updated to:
 
 See the subsequent changes in the
 [`agents-home` repository](https://github.com/magitech-ai/agents-home).
+
+## Follow-up evaluation after the onboarding updates
+
+**Session:** OpenCode CLI v2.3.0, model
+`opencode/deepseek-v4.1-flash-free`, run on 2026-11-15 from the
+`agents-home` checkout at commit `c8de79c`.
+
+- Prompt: repeat the read-only onboarding evaluation using the updated
+  guidance, run only the documented skill-link `check`, and compare with the
+  earlier report.
+- Session export:
+  [`2026-11-15-fresh-agent-onboarding-follow-up.json`](../../evidence/opencode/2026-11-15-fresh-agent-onboarding-follow-up.json).
+- The agent reported reading the repository and pattern documentation,
+  installer, tests, CI workflow, collection validator, and earlier session
+  export. It ran `uv run --no-project python scripts/sync_skills.py check`,
+  got exit code 0 and “All 30 skills are linked in 1 target(s),” and reported
+  no file or configuration changes.
+- It reported 13 collection skills advertised and 17 intentionally hidden;
+  it loaded the advertised `writing-for-agents` and explicitly loaded the
+  hidden `skill-collection-maintenance` by exact ID. This is a second
+  OpenCode-session observation of hidden-skill invocation, not a guarantee
+  for other harnesses.
+- It found the new check-first and hidden-skill guidance present and clear on
+  the happy path. Its remaining documentation suggestion was to state what
+  `check` does not verify (skill content validity or actual harness loading),
+  explain why the target count can be one, and make conflict recovery explicit.
+
+The export records tool interactions and the agent's final report. These
+findings remain scoped to this machine and OpenCode v2.3.0; the session did
+not test a fresh machine without preinstalled links, nor did it test
+`install` or `uninstall`.
