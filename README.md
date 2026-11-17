@@ -33,6 +33,8 @@ See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [fresh OpenCode onboarding pilot](docs/field-notes/2026-11-fresh-opencode-onboarding.md),
 [Antigravity onboarding evaluations](docs/field-notes/2026-11-antigravity-onboarding-evaluations.md),
 [repository map maintenance pilot](docs/field-notes/2026-11-repository-map-maintenance.md),
+[repo map drift check pilot](docs/field-notes/2026-11-repo-map-drift-check.md),
+[cross-repo work-phase pilot](docs/field-notes/2026-11-cross-repo-work-phase.md),
 [sources](docs/sources.md), and [open questions](docs/open-questions.md).
 Terms used in this repository are defined in the [glossary](GLOSSARY.md).
 
