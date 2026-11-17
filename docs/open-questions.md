@@ -8,6 +8,12 @@ a future protocol.
 - Is the pattern primarily personal, team-shared, or useful in both cases?
 - What should be canonical in an agent home repository, and what should
   remain local to each code repository?
+- How should a curated repo map stay accurate as repositories are added,
+  transferred, renamed, unpublished, or present only as local checkouts?
+  Should it describe the workspace, the organization, or an explicitly
+  selected subset? Candidate approaches include a human maintenance
+  checklist, a read-only drift report, or a generated inventory with curated
+  annotations; what evidence would justify choosing among them?
 - Should one repository hold both human-facing home guidance and machine
   discovery adapters, or should those concerns be split?
 - How should a private canonical repository serve collaborators or machines
