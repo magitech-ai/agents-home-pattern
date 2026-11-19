@@ -21,7 +21,8 @@ not a standard or conformance target.
 
 Descriptive [pilot conformance claims](CONFORMANCE.md) live in one table. They
 are observations about this workspace, never requirements. Validate notes,
-links and claims with `python3 scripts/check_evidence.py` before a PR.
+links and claims with `python3 scripts/check_evidence.py` before a PR. Work
+flows through GitHub issues to proof PRs per [docs/WORKFLOW.md](docs/WORKFLOW.md).
 
 ## Scope
 

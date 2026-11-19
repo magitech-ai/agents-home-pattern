@@ -1,0 +1,45 @@
+name: Conformance claim
+description: Propose a descriptive claim for CONFORMANCE.md.
+title: "[Claim] "
+labels: ["Hypothesis"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Claims describe this workspace; they are never requirements for other
+        users. A proposal starts as Hypothesis and is relabelled only when a
+        pilot produces evidence.
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim (descriptive, past tense)
+      placeholder: "In this workspace, one home repo held the shared skills."
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence label once proven
+      options:
+        - Pilot observation
+        - Documented behavior
+        - Hypothesis
+        - Open question
+    validations:
+      required: true
+  - type: input
+    id: proof
+    attributes:
+      label: Intended proof
+      description: "A relative Markdown link or a check: <path> target."
+      placeholder: "docs/field-notes/2026-11-20-....md"
+    validations:
+      required: true
+  - type: textarea
+    id: done_when
+    attributes:
+      label: Done when
+      description: Completion condition.
+      placeholder: "Claim row added; checker green; pilot issue linked."
+    validations:
+      required: true

@@ -1,0 +1,49 @@
+name: Pilot run
+description: Run a scoped pilot and record what actually happened.
+title: "[Pilot] "
+labels: ["Pilot observation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A pilot tests one claim in one environment. It closes only with a
+        proof link (an evidence note or a passing CI check). Do not file a
+        pilot for behaviour you have not run.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or claim under test
+      description: Link the open question or conformance claim this pilot answers.
+      placeholder: "C3 — does discovery stay separate from portable content?"
+    validations:
+      required: true
+  - type: input
+    id: harness
+    attributes:
+      label: Harness and version
+      placeholder: "OpenCode v2.3.0 / Antigravity desktop / Magecode 0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Linux, one workspace, one user"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps actually run
+      description: Commands or UI steps, enough for another agent to repeat.
+      placeholder: "1. ...\n2. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: done_when
+    attributes:
+      label: Done when
+      description: The observable condition that lets this issue close.
+      placeholder: "Evidence note exists, links to this issue, and CI is green."
+    validations:
+      required: true
