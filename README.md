@@ -52,6 +52,7 @@ See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [single issue→PR loop pilot](docs/field-notes/2026-11-19-single-issue-to-pr-loop.md),
 [code-changing loop pilot](docs/field-notes/2026-11-19-code-changing-loop-pilot.md),
 [Stage A independent reviewer pilot](docs/field-notes/2026-11-19-stage-a-independent-reviewer.md),
+[Stage B reviewer evaluation](docs/field-notes/2026-11-19-stage-b-reviewer-eval.md),
 [checkable conformance claims](docs/field-notes/2026-11-20-conformance-claims.md),
 [harness evidence matrix](docs/harness-matrix.md),
 [workflow](docs/WORKFLOW.md), [sources](docs/sources.md), and
