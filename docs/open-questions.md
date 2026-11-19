@@ -42,6 +42,13 @@ a future protocol.
   harness's discovery behavior is universal?
 - Which user experiences should count as validation, and how should version
   changes in harnesses be tracked?
+- **Passive reminders vs. scheduled automations:** where is the clean boundary
+  between (1) passive session-start reminders in `agents-home/reminders.toml`,
+  (2) passive recurring nudges, and (3) host-scheduled unattended automations
+  (Antigravity automations, `.agents` repeat tasks, OS cron, GitHub Actions
+  `on: schedule`)? Tier (1) is trivially portable across harnesses as plain data,
+  whereas tier (3) depends on each host's trigger runtime, sandboxing, and kill
+  switch.
 
 ## Decisions
 
