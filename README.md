@@ -50,6 +50,7 @@ See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [onboarding UX for agents](docs/field-notes/2026-11-19-onboarding-ux-for-agents.md),
 [component-creation gap](docs/field-notes/2026-11-19-component-creation-gap.md),
 [single issue→PR loop pilot](docs/field-notes/2026-11-19-single-issue-to-pr-loop.md),
+[code-changing loop pilot](docs/field-notes/2026-11-19-code-changing-loop-pilot.md),
 [checkable conformance claims](docs/field-notes/2026-11-20-conformance-claims.md),
 [harness evidence matrix](docs/harness-matrix.md),
 [workflow](docs/WORKFLOW.md), [sources](docs/sources.md), and
