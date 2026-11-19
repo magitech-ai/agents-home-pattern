@@ -4,6 +4,8 @@
 **Evidence type:** User-directed fresh-session test with exported transcript
 **Status:** One-machine pilot; limited to OpenCode v2.3.0
 
+**Limitations:** One machine; limited to OpenCode v2.3.0.
+
 ## Test setup
 
 - Repository: private

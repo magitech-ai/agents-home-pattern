@@ -5,6 +5,8 @@
 **Status:** One workspace; the agent-friendliness is interface-level, not a
 user study.
 
+**Limitations:** One machine and one CLI implementation; no other harness tested; --force is blunt migration.
+
 ## Observation
 
 An onboarding wizard initially used a single interactive `input()` prompt. That

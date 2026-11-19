@@ -7,6 +7,8 @@ is not independent proof.
 **Status:** One Magitech workspace, one user, several harnesses (OpenCode for
 this work, magecode itself as the subject).
 
+**Limitations:** One machine, one user, one private home repo; no independent multi-user validation; private-repo access still gates collaborators.
+
 ## What was implemented
 
 `magecode` was changed from a standalone any-cwd agent into an agent whose

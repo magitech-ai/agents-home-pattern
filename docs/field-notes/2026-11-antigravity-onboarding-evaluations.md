@@ -4,6 +4,8 @@
 **Evidence type:** Two user-directed, read-only Antigravity desktop-app sessions
 **Status:** One-machine pilot; app version was not recorded
 
+**Limitations:** One-machine pilot; app version not recorded.
+
 ## Test setup
 
 Both sessions used `/mnt/storage/projects/magitech/agents-home` as the
