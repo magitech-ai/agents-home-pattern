@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   validate-evidence:
-    name: Validate evidence and claims
+    name: Validate evidence
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
