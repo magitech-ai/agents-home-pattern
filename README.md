@@ -54,6 +54,7 @@ See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [Stage A independent reviewer pilot](docs/field-notes/2026-11-19-stage-a-independent-reviewer.md),
 [Stage B reviewer evaluation](docs/field-notes/2026-11-19-stage-b-reviewer-eval.md),
 [Stage B2 real/injection evaluation](docs/field-notes/2026-11-19-stage-b2-real-and-injection-eval.md),
+[reviewer model proof](docs/field-notes/2026-11-19-reviewer-model-proof.md),
 [checkable conformance claims](docs/field-notes/2026-11-20-conformance-claims.md),
 [harness evidence matrix](docs/harness-matrix.md),
 [workflow](docs/WORKFLOW.md), [sources](docs/sources.md), and
