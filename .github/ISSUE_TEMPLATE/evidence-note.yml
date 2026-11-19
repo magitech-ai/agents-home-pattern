@@ -1,0 +1,52 @@
+name: Evidence note
+description: Turn a finished pilot into a checked field note.
+title: "[Evidence] "
+labels: ["Pilot observation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The note must satisfy `scripts/check_evidence.py`: Recorded, Label,
+        Evidence type, Status, Limitations, README index link and a Reproduce
+        block for notes recorded from 2026-11-20 onward.
+  - type: input
+    id: issue
+    attributes:
+      label: Source issue
+      placeholder: "#12"
+    validations:
+      required: true
+  - type: dropdown
+    id: label
+    attributes:
+      label: Label
+      options:
+        - Pilot observation
+        - Documented behavior
+        - Hypothesis
+        - Open question
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduce
+      description: Command and artifact path that back the observation.
+      placeholder: "python3 scripts/check_evidence.py — output in CI run <url>"
+    validations:
+      required: true
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations
+      description: What this observation does not prove.
+    validations:
+      required: true
+  - type: textarea
+    id: done_when
+    attributes:
+      label: Done when
+      description: Completion condition for this ticket.
+      placeholder: "Note merged; source issue closed with a proof comment."
+    validations:
+      required: true

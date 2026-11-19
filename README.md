@@ -62,7 +62,10 @@ Terms used in this repository are defined in the [glossary](GLOSSARY.md).
 
 ## Contributing evidence
 
-When adding an observation, say whether it was personally tested or found in
-documentation, identify the harness/version and environment where possible,
-and link the source. Keep confirmed facts, interpretations, and questions
-distinct. Record contrary evidence as readily as supporting evidence.
+The [evidence workflow](docs/WORKFLOW.md) runs from an issue, through a proof
+PR, to a CI gate and a proof comment on close. Issue templates, the controlled
+label vocabulary and a PR template live in `.github/`. When adding an
+observation, say whether it was personally tested or found in documentation,
+identify the harness/version and environment where possible, and link the
+source. Keep confirmed facts, interpretations, and questions distinct. Record
+contrary evidence as readily as supporting evidence.
