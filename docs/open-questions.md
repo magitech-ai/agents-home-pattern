@@ -42,3 +42,23 @@ a future protocol.
   harness's discovery behavior is universal?
 - Which user experiences should count as validation, and how should version
   changes in harnesses be tracked?
+
+## Decisions
+
+The following choices are recorded as revisable decisions with explicit reopen
+conditions in
+[`../agents-home/docs/DECISIONS.md`](../../agents-home/docs/DECISIONS.md), not
+permanent doctrine:
+
+- **GitHub Discussions scope (D-003):** Discussions are scoped to
+  `agents-home-pattern`, not enabled org-wide or on product repos by default.
+  GitHub describes Discussions as open-form, often without a clear owner, and
+  often not resulting in an actionable task, whereas product repos rely on the
+  deterministic `ready-for-agent` issue queue. Revisit when opening public
+  repos that need an external community or when cross-repo public dialogue
+  emerges.
+- **GitHub Projects / roadmap (D-004):** No GitHub Projects board is added yet
+  because no roadmap exists and no autonomous issue→PR loop produces work to
+  visualize (adding a board now would duplicate state). Revisit when a single
+  issue→PR loop produces frequent real work and cross-repo visibility becomes
+  a pain point.
