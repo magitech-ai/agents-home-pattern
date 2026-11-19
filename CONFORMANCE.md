@@ -15,6 +15,7 @@ The claim set is versioned with this repository and checked by
 | C5 | A self-improvement loop can be fully instrumented and still yield nothing adoptable; the loop refused adoption. | Pilot observation | [Measured self-improvement](docs/field-notes/2026-11-19-measured-self-improvement.md) |
 | C6 | A native home agent was implemented and exercised in one workspace; the result is a pilot, not a portability proof. | Pilot observation | [Native home agent](docs/field-notes/2026-11-19-magecode-native-home-agent.md) |
 | C7 | Evidence notes carry a recorded date, controlled label, status and limitations; local links resolve; every claim has a resolvable proof. | Pilot observation | `check: scripts/check_evidence.py` |
+| C8 | Claims were made checkable without asserting universal discovery behaviour: each claim is a past-tense workspace statement with a label and a proof that resolves. | Pilot observation | [Conformance claims decision](docs/field-notes/2026-11-20-conformance-claims.md) |
 
 ## Adding a claim
 

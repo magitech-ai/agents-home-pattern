@@ -49,7 +49,9 @@ See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [measured self-improvement](docs/field-notes/2026-11-19-measured-self-improvement.md),
 [onboarding UX for agents](docs/field-notes/2026-11-19-onboarding-ux-for-agents.md),
 [component-creation gap](docs/field-notes/2026-11-19-component-creation-gap.md),
-[sources](docs/sources.md), and [open questions](docs/open-questions.md).
+[checkable conformance claims](docs/field-notes/2026-11-20-conformance-claims.md),
+[workflow](docs/WORKFLOW.md), [sources](docs/sources.md), and
+[open questions](docs/open-questions.md).
 Terms used in this repository are defined in the [glossary](GLOSSARY.md).
 
 ## What this repository is not
