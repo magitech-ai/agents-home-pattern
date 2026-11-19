@@ -1,6 +1,7 @@
 # Onboarding UX for humans and agents
 
 **Recorded:** 2026-11-19
+**Label:** Pilot observation
 **Evidence type:** Implementation and live CLI runs in `magecode`
 **Status:** One workspace; the agent-friendliness is interface-level, not a
 user study.

@@ -1,6 +1,7 @@
 # Fresh OpenCode Onboarding Pilot
 
 **Recorded:** 2026-11-15
+**Label:** Pilot observation
 **Evidence type:** User-directed fresh-session test with exported transcript
 **Status:** One-machine pilot; limited to OpenCode v2.3.0
 

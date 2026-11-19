@@ -1,6 +1,7 @@
 # Magecode as the native home agent
 
 **Recorded:** 2026-11-19
+**Label:** Pilot observation
 **Evidence type:** Pilot observation from implementation sessions; tool output,
 tests and CI runs are recorded where available. The agent's own interpretation
 is not independent proof.

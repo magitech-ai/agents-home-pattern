@@ -1,6 +1,7 @@
 # Measured self-improvement and multi-provider evidence
 
 **Recorded:** 2026-11-19
+**Label:** Pilot observation
 **Evidence type:** Pilot observation with CI/test output and live A/B runs;
 model behaviour is stochastic and single-user.
 **Status:** Infrastructure is verified; the benefit claim is not established.

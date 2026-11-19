@@ -1,6 +1,7 @@
 # Cross-Repo Work-Phase Pilot
 
 **Recorded:** 2026-11-17
+**Label:** Pilot observation
 **Evidence type:** Pilot observation from an OpenCode session working across
 `agents-home`, `magecode`, `anima`, and `agents-home-pattern`
 **Status:** One Magitech workspace and one harness; the agent's own summary is
