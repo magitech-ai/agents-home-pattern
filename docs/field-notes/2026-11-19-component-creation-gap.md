@@ -1,6 +1,7 @@
 # Component-creation gap: no autonomous plugin factory in mth-plugins
 
 **Recorded:** 2026-11-19
+**Label:** Pilot observation
 **Evidence type:** Read-only code and ADR audit of `mth-plugins` and
 `magitech-harness`, plus local comparison with `magecode`
 **Status:** Verified file-level facts; the "deepseek-harness-style self-creation"

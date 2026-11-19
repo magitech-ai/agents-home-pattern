@@ -11,9 +11,9 @@ permissions:
 
 jobs:
   validate-evidence:
-    name: Validate evidence
+    name: Validate evidence and claims
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - name: Validate field notes
+      - name: Validate notes, links and conformance claims
         run: python3 scripts/check_evidence.py

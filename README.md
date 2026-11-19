@@ -22,12 +22,22 @@ collaboration models.
 
 ## Evidence labels
 
+Every field note declares one label explicitly as a `**Label:**` header, using
+the controlled vocabulary below. Notes recorded from 2026-11-20 onward must
+also include a `**Reproduce:**` block naming the command and the artifact that
+backs the observation. `python3 scripts/check_evidence.py` enforces both rules
+and runs in CI.
+
 - **Pilot observation** — behavior exercised in the Magitech workspace.
 - **Documented behavior** — a harness or standard's own documentation states
   the behavior; this does not by itself prove it works in every version or
   surface.
 - **Hypothesis** — a proposed generalization that still needs testing.
 - **Open question** — an unresolved design or interoperability issue.
+
+Descriptive [pilot conformance claims](CONFORMANCE.md) are collected in one
+table and checked by the same script. They are statements about this workspace,
+not requirements for other users.
 
 See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [fresh OpenCode onboarding pilot](docs/field-notes/2026-11-fresh-opencode-onboarding.md),

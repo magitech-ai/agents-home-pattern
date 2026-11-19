@@ -1,6 +1,7 @@
 # Repo Map Drift Check Pilot
 
 **Recorded:** 2026-11-17
+**Label:** Pilot observation
 **Evidence type:** Pilot observation from a read-only script run in the
 Magitech workspace
 **Status:** One workspace snapshot; the script reports differences, not truth

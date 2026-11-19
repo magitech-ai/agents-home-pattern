@@ -1,6 +1,7 @@
 # Antigravity Onboarding Evaluations
 
 **Recorded:** 2026-11-15
+**Label:** Pilot observation
 **Evidence type:** Two user-directed, read-only Antigravity desktop-app sessions
 **Status:** One-machine pilot; app version was not recorded
 

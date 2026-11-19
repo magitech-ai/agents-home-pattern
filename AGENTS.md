@@ -17,6 +17,12 @@ not a standard or conformance target.
   decision.
 - Update `GLOSSARY.md` when this project settles on domain terminology.
 
+## Claims
+
+Descriptive [pilot conformance claims](CONFORMANCE.md) live in one table. They
+are observations about this workspace, never requirements. Validate notes,
+links and claims with `python3 scripts/check_evidence.py` before a PR.
+
 ## Scope
 
 The Magitech skill collection itself is maintained in the separate

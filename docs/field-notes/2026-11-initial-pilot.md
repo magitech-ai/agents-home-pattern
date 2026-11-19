@@ -1,6 +1,7 @@
 # Initial Magitech Pilot
 
 **Recorded:** 2026-11-15
+**Label:** Pilot observation
 **Evidence type:** Pilot observations plus linked vendor documentation
 **Status:** Snapshot of one user's setup; not a compatibility guarantee
 

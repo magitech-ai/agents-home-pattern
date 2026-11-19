@@ -1,6 +1,7 @@
 # Repository Map Maintenance Pilot
 
 **Recorded:** 2026-11-16
+**Label:** Pilot observation
 **Evidence type:** Pilot observations from a Copilot SDK in VS Code session
 **Status:** One Magitech workspace and organization; not a general workflow
 
