@@ -15,5 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: astral-sh/setup-uv@v6
       - name: Validate notes, links and conformance claims
         run: python3 scripts/check_evidence.py
+      - name: Validate issue-form YAML
+        run: uv run --no-project --with pyyaml python -c "import pathlib, yaml; [yaml.safe_load(p.read_text()) for p in pathlib.Path('.github/ISSUE_TEMPLATE').glob('*.yml')]"
