@@ -5,7 +5,7 @@ Antigravity and Magecode. A cell holds the strongest recorded claim, not a
 capability estimate. "Open question" means no field note recorded the
 behaviour; it is not a claim that the harness cannot do it.
 
-| Capability | OpenCode | Antigravity | Magecode |
+| Capability | OpenCode | Antigravity | home-swe-home |
 | --- | --- | --- | --- |
 | Discovery of home guidance | Pilot observation — fresh session read root `AGENTS.md`, README and skill catalog ([note](field-notes/2026-11-fresh-opencode-onboarding.md), 2026-11-15) | Pilot observation — two read-only sessions read the home repository ([note](field-notes/2026-11-antigravity-onboarding-evaluations.md), 2026-11-15) | Pilot observation — home resolved from config, then walk-up, then conventional path ([note](field-notes/2026-11-19-magecode-native-home-agent.md), 2026-11-19) |
 | Pointer resolution / clone-on-demand | Pilot observation — read-only repo-map drift check reported differences without editing ([note](field-notes/2026-11-repo-map-drift-check.md), 2026-11-17) | Open question — [not recorded](open-questions.md) | Pilot observation — `Other Repos` parsed; missing clone only after `confirm=true` ([note](field-notes/2026-11-19-magecode-native-home-agent.md), 2026-11-19) |
