@@ -12,6 +12,7 @@ Checks:
   - local Markdown links resolve (cross-repo `../` links are skipped so CI
     stays hermetic when only this repo is checked out)
   - CONFORMANCE.md claim rows have a valid label and a proof that resolves
+  - the harness matrix has four capability rows, each cell labelled
 """
 
 from __future__ import annotations
@@ -23,6 +24,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 NOTES = ROOT / "docs" / "field-notes"
 CONFORMANCE = ROOT / "CONFORMANCE.md"
+MATRIX = ROOT / "docs" / "harness-matrix.md"
 REQUIRED = ("Recorded", "Evidence type", "Label", "Status", "Limitations")
 LABELS = {
     "Pilot observation",
@@ -107,11 +109,32 @@ def check_claims(failures: list[str]) -> None:
                 failures.append(f"{claim_id}: checker {path!r} does not exist")
 
 
+def check_matrix(failures: list[str]) -> None:
+    rows = [
+        line
+        for line in MATRIX.read_text(encoding="utf-8").splitlines()
+        if line.startswith("| ") and not line.startswith("| ---")
+    ]
+    if len(rows) != 5:
+        failures.append("harness-matrix.md: expected a header and 4 capability rows")
+    for row in rows[2:]:
+        cells = [cell.strip() for cell in row.strip().strip("|").split("|")]
+        if len(cells) != 4:
+            failures.append(f"harness-matrix.md: malformed row {cells[0]!r}")
+            continue
+        for cell in cells[1:]:
+            if not any(label in cell for label in LABELS):
+                failures.append(
+                    f"harness-matrix.md: {cells[0]} has an unlabelled cell"
+                )
+
+
 def main() -> int:
     failures: list[str] = []
     check_notes(failures)
     check_links(failures)
     check_claims(failures)
+    check_matrix(failures)
     if failures:
         for failure in failures:
             print(f"FAIL: {failure}")
