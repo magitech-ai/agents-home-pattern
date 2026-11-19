@@ -5,6 +5,8 @@
 Magitech workspace
 **Status:** One workspace snapshot; the script reports differences, not truth
 
+**Limitations:** One workspace snapshot; the script reports differences, not truth; shallow scheme/path checks.
+
 ## Setup exercised
 
 `agents-home/scripts/check_repo_map.py` was run against the curated

@@ -5,6 +5,8 @@
 model behaviour is stochastic and single-user.
 **Status:** Infrastructure is verified; the benefit claim is not established.
 
+**Limitations:** Single user/machine/provider account; small self-authored task suite; checker bugs found repeatedly; no independent human review.
+
 ## Setup
 
 `magecode` implements a Propose–Probe–Compose loop outside the agent as a

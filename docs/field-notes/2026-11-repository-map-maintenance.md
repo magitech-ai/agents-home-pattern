@@ -4,6 +4,8 @@
 **Evidence type:** Pilot observations from a Copilot SDK in VS Code session
 **Status:** One Magitech workspace and organization; not a general workflow
 
+**Limitations:** One Magitech workspace and organization; not a general workflow.
+
 ## Setup exercised
 
 The shared `agents-home` repository documents sibling projects in its root

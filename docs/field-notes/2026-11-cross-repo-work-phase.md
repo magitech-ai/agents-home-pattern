@@ -6,6 +6,8 @@
 **Status:** One Magitech workspace and one harness; the agent's own summary is
 not independent proof
 
+**Limitations:** One Magitech workspace and one harness; agent self-reporting is not independent proof.
+
 ## Setup exercised
 
 A long implementation session ran with `agents-home` as the OpenCode working

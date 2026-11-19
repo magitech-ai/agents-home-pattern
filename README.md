@@ -35,6 +35,10 @@ See the [initial pilot notes](docs/field-notes/2026-11-initial-pilot.md),
 [repository map maintenance pilot](docs/field-notes/2026-11-repository-map-maintenance.md),
 [repo map drift check pilot](docs/field-notes/2026-11-repo-map-drift-check.md),
 [cross-repo work-phase pilot](docs/field-notes/2026-11-cross-repo-work-phase.md),
+[magecode as the native home agent](docs/field-notes/2026-11-19-magecode-native-home-agent.md),
+[measured self-improvement](docs/field-notes/2026-11-19-measured-self-improvement.md),
+[onboarding UX for agents](docs/field-notes/2026-11-19-onboarding-ux-for-agents.md),
+[component-creation gap](docs/field-notes/2026-11-19-component-creation-gap.md),
 [sources](docs/sources.md), and [open questions](docs/open-questions.md).
 Terms used in this repository are defined in the [glossary](GLOSSARY.md).
 

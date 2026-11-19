@@ -6,6 +6,8 @@
 **Status:** Verified file-level facts; the "deepseek-harness-style self-creation"
 comparison is inference from the user's description, not from that repository.
 
+**Limitations:** One local checkout per repo; several were on non-default branches during the audit; deepseek-harness was unavailable locally.
+
 ## What was checked
 
 `mth-plugins` contains no component, factory, or meta-tool that creates or

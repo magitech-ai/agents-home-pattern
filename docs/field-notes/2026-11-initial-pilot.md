@@ -4,6 +4,8 @@
 **Evidence type:** Pilot observations plus linked vendor documentation
 **Status:** Snapshot of one user's setup; not a compatibility guarantee
 
+**Limitations:** One user's setup; not a compatibility guarantee.
+
 ## Setup exercised
 
 The Magitech workspace uses a private shared repository, now named
