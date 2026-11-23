@@ -17,6 +17,7 @@ The claim set is versioned with this repository and checked by
 | C7 | Evidence notes carry a recorded date, controlled label, status and limitations; local links resolve; every claim has a resolvable proof. | Pilot observation | `check: scripts/check_evidence.py` |
 | C8 | Claims were made checkable without asserting universal discovery behaviour: each claim is a past-tense workspace statement with a label and a proof that resolves. | Pilot observation | [Conformance claims decision](docs/field-notes/2026-11-20-conformance-claims.md) |
 | C9 | Cross-harness claims were scoped to OpenCode, Antigravity and Magecode; untested cells are explicit open questions. | Pilot observation | [Harness evidence matrix](docs/harness-matrix.md) |
+| C10 | A missing or empty repo map and stale clone URLs failed the gate, while membership drift stayed informational and the check remained read-only. | Pilot observation | [Tiered repo-map drift gate](docs/field-notes/2026-11-23-repo-map-drift-gate.md) |
 
 ## Adding a claim
 
